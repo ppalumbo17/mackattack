@@ -53,6 +53,7 @@ header {
   padding-top: 30px;
   width: 80%;
   min-height: 800px;
+  max-height: 820px;
   margin: 30px auto;
   border: solid 1px var(--grey);
 }
@@ -63,9 +64,10 @@ header {
   height: 100%;
 }
 #left-content img {
-  border-radius: 50%;
+  border-radius: 05%;
   margin: 5em auto;
-  max-width: 90%;
+  max-width: 95%;
+  max-height: 600px;
 }
 #right-content{
   height: 100%;
@@ -74,10 +76,10 @@ header {
   float: none;
 }
 #right-content p {
-  letter-spacing: 0.1px;
-  font-size: 20px;
+  letter-spacing: 0.125px;
+  font-size: 22px;
   color: #000;
-  margin-top: 5em;
+  margin-top: 3.5em;
   margin-right: 5em;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
