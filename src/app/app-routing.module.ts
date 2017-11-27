@@ -1,5 +1,6 @@
-import { ModuleWithProviders } from '@angular/core';
-import { RouterModule } from '@angular/router';
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
+
 import { AppComponent } from './app.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ResumeComponent } from './resume/resume.component';
@@ -7,7 +8,8 @@ import { BlogComponent } from './blog/blog.component';
 import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 
-export const AppRoutes = [
+const routes: Routes = [
+  { path: '', redirectTo: '/about', pathMatch: 'full' },
   {path: 'homepage', component: AppComponent},
   {path: 'about', component: AboutComponent },
   {path: 'portfolio', component: PortfolioComponent },
@@ -16,4 +18,8 @@ export const AppRoutes = [
   {path: 'contact', component: ContactComponent },
 ];
 
-export const HomePageRouting: ModuleWithProviders = RouterModule.forChild(AppRoutes);
+@NgModule({
+  imports: [ RouterModule.forRoot(routes) ],
+  exports: [ RouterModule ]
+})
+export class AppRoutingModule {}

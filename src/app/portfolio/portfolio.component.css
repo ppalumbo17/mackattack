@@ -1,0 +1,19 @@
+h4 {
+  padding-top: 30px;
+  text-align: center;
+  text-decoration: underline;
+}
+#contentlist {
+  display: block;
+  float: left;
+  padding-top: 20px;
+}
+#contentlist li {
+  margin: 8px 0px;
+
+}
+#contentlist li a {
+  font-size: 1.2rem;
+  color: var(--red);
+  letter-spacing: 1px;
+}

@@ -15,18 +15,23 @@ header {
   cursor: default;
 }
 .navbar ul {
-  display: inline-block;
+  text-align: center;
+  display: inline-block; 
   float: none;
   vertical-align: top;
   margin: auto;
   padding-top: 20px;
+}
+
+.navbar ul li {
+  display: inline-block;
 }
 .navbar li a span{
   letter-spacing: 2px;
   color: var(--grey);
   text-transform: uppercase;
   border-bottom: solid 2px transparent;
-  display: inline-block;
+   display: inline-block; 
   width: 100%;
 }
 
@@ -45,9 +50,10 @@ header {
 }
 
 #content {
+  padding-top: 30px;
   width: 80%;
   min-height: 800px;
-  margin: 0 auto;
+  margin: 30px auto;
   border: solid 1px var(--grey);
 }
 .container .row {
@@ -69,9 +75,11 @@ header {
 }
 #right-content p {
   letter-spacing: 0.1px;
-  font-size: 1.75rem;
+  font-size: 20px;
+  color: #000;
   margin-top: 5em;
   margin-right: 5em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 footer {
   margin-bottom: 100px;
