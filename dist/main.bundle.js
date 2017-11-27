@@ -138,7 +138,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "\nheader {\n  text-align:center; \n  margin-top: 50px;\n}\n#upper-header a{\n  color: var(--blue); \n  font-size: 2.5rem; \n  text-transform: uppercase; \n  letter-spacing: 3px; \n  font-weight: 400; \n  line-height: 1.2em; \n  font-style: normal; \n  text-decoration: none;\n  cursor: default;\n}\n.navbar ul {\n  text-align: center;\n  display: inline-block; \n  float: none;\n  vertical-align: top;\n  margin: auto;\n  padding-top: 20px;\n}\n\n.navbar ul li {\n  display: inline-block;\n}\n.navbar li a span{\n  letter-spacing: 2px;\n  color: var(--grey);\n  text-transform: uppercase;\n  border-bottom: solid 2px transparent;\n   display: inline-block; \n  width: 100%;\n}\n\n.navbar li a:hover {\n  background-color: transparent;  \n}\n.navbar li a:hover span{\n  color: var(--blue);\n  border-bottom-color: var(--red);\n  outline: 0;\n}\n\n.navbar li.active a span{\n  color: var(--blue);\n  border-bottom-color: var(--grey);\n}\n\n#content {\n  padding-top: 30px;\n  width: 80%;\n  min-height: 800px;\n  margin: 30px auto;\n  border: solid 1px var(--grey);\n}\n.container .row {\n  height: 100%;\n}\n#left-content {\n  height: 100%;\n}\n#left-content img {\n  border-radius: 50%;\n  margin: 5em auto;\n  max-width: 90%;\n}\n#right-content{\n  height: 100%;\n  display: inline-block;\n  vertical-align: middle;\n  float: none;\n}\n#right-content p {\n  letter-spacing: 0.1px;\n  font-size: 20px;\n  color: #000;\n  margin-top: 5em;\n  margin-right: 5em;\n  font-family: Georgia, 'Times New Roman', Times, serif;\n}\nfooter {\n  margin-bottom: 100px;\n}\n/* #left-content {\n  margin: 20px;\n}\n#left-content img {\n  max-width: 200px;\n}\n\n#right-content {\n  margin: 20px;\n} */\n", ""]);
+exports.push([module.i, "\nheader {\n  text-align:center; \n  margin-top: 50px;\n}\n#upper-header a{\n  color: var(--blue); \n  font-size: 2.5rem; \n  text-transform: uppercase; \n  letter-spacing: 3px; \n  font-weight: 400; \n  line-height: 1.2em; \n  font-style: normal; \n  text-decoration: none;\n  cursor: default;\n}\n.navbar ul {\n  text-align: center;\n  display: inline-block; \n  float: none;\n  vertical-align: top;\n  margin: auto;\n  padding-top: 20px;\n}\n\n.navbar ul li {\n  display: inline-block;\n}\n.navbar li a span{\n  letter-spacing: 2px;\n  color: var(--grey);\n  text-transform: uppercase;\n  border-bottom: solid 2px transparent;\n   display: inline-block; \n  width: 100%;\n}\n\n.navbar li a:hover {\n  background-color: transparent;  \n}\n.navbar li a:hover span{\n  color: var(--blue);\n  border-bottom-color: var(--red);\n  outline: 0;\n}\n\n.navbar li.active a span{\n  color: var(--blue);\n  border-bottom-color: var(--grey);\n}\n\n#content {\n  padding-top: 30px;\n  width: 80%;\n  min-height: 800px;\n  max-height: 820px;\n  margin: 30px auto;\n  border: solid 1px var(--grey);\n}\n.container .row {\n  height: 100%;\n}\n#left-content {\n  height: 100%;\n}\n#left-content img {\n  border-radius: 05%;\n  margin: 5em auto;\n  max-width: 95%;\n  max-height: 600px;\n}\n#right-content{\n  height: 100%;\n  display: inline-block;\n  vertical-align: middle;\n  float: none;\n}\n#right-content p {\n  letter-spacing: 0.125px;\n  font-size: 22px;\n  color: #000;\n  margin-top: 3.5em;\n  margin-right: 5em;\n  font-family: Georgia, 'Times New Roman', Times, serif;\n}\nfooter {\n  margin-bottom: 100px;\n}\n/* #left-content {\n  margin: 20px;\n}\n#left-content img {\n  max-width: 200px;\n}\n\n#right-content {\n  margin: 20px;\n} */\n", ""]);
 
 // exports
 
@@ -311,7 +311,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "h4 {\n  text-transform: uppercase;\n}", ""]);
+exports.push([module.i, "#contact-content {\n  padding-top: 30px;\n}\nh4 {\n  text-transform: uppercase;\n}\np {\n\n}", ""]);
 
 // exports
 
@@ -324,7 +324,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/contact/contact.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"row\">\n<div class=\"col-3\"></div>\n<div class=\"col-6\">\n  <h4>Email:</h4>\n  <p>If you'd like to get in touch, please email me at: <a href=\"mailto:mckenziebroekstra@gmail.com\">mckenziebroekstra@gmail.com</a></p>\n    <hr>\n  <h4>Social Media:</h4>\n  <p>Please follow me on LinkedIn <a href=\"https://www.linkedin.com/in/mckenzie-broekstra-5b6a4a91/\">here</a></p>\n</div>\n<div class=\"col-3\"></div>\n</div>\n"
+module.exports = "<div class=\"row\">\n<div class=\"col-3\"></div>\n<div class=\"col-6\">\n  <div id=\"contact-content\">\n  <h4>Email:</h4>\n  <p>If you'd like to get in touch, please email me at: <a href=\"mailto:mckenziebroekstra@gmail.com\">mckenziebroekstra@gmail.com</a></p>\n    <hr>\n  <h4>Social Media:</h4>\n  <p>Please follow me on LinkedIn <a href=\"https://www.linkedin.com/in/mckenzie-broekstra-5b6a4a91/\">here</a></p>\n  </div>\n</div>\n<div class=\"col-3\"></div>\n</div>\n"
 
 /***/ }),
 
