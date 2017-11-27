@@ -8,11 +8,11 @@
       <div id="upper-nav">
         <nav class="navbar" style="text-align:center;">
           <ul class="nav navbar-nav">
-            <li class="active"><a routerLink="/about"><span>Home</span></a></li>
-            <li><a routerLink="/portfolio"><span>Portfolio</span></a></li>
-            <li><a routerLink="/resume"><span>Resume</span></a></li>
-            <li><a routerLink="/blog"><span>Blog</span></a></li>
-            <li><a routerLink="/contact"><span>Contact</span></a></li>
+            <li [routerLinkActive]="['active']"><a routerLink="/about"><span>Home</span></a></li>
+            <li [routerLinkActive]="['active']"><a routerLink="/portfolio"><span>Portfolio</span></a></li>
+            <li [routerLinkActive]="['active']"><a routerLink="/resume"><span>Resume</span></a></li>
+            <!-- <li [routerLinkActive]="['active']"><a routerLink="/blog"><span>Blog</span></a></li> -->
+            <li [routerLinkActive]="['active']"><a routerLink="/contact"><span>Contact</span></a></li>
           </ul>
         </nav>
       </div>

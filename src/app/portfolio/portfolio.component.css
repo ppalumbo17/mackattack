@@ -1,10 +1,9 @@
 h4 {
   padding-top: 30px;
   text-align: center;
-  text-decoration: underline;
+  text-transform: uppercase;
 }
 #contentlist {
-  display: block;
   float: left;
   padding-top: 20px;
 }
